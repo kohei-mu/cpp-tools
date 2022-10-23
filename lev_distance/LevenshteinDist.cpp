@@ -1,5 +1,11 @@
 
 int main(int argc, char *argv[]) {
+  if (argc <= 2)
+  {
+    cout << "Error! This program needs 2 param." << endl;
+    return 0;
+  }
+
   //take the strings as input
   char *s1 = argv[1];
   char *s2 = argv[2];
