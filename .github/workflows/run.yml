@@ -1,0 +1,16 @@
+name: cpp-tools-workflows
+on:   
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build Step
+        run: echo "START !!!!"
+      - name: pwd
+        run: pwd
+      - name: Build Run 2
+        run: make run
+        working-directory: lev_distance
