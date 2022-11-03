@@ -13,7 +13,8 @@ jobs:
       - name: pwd
         run: pwd
       - name: cd
-        run: cd lev_distance
+        run: pwd
+        working-directory: lev_distance
       - name: Build Run 2
         run: make run
         working-directory: lev_distance
