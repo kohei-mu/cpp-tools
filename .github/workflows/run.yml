@@ -12,8 +12,8 @@ jobs:
         run: echo "START !!!!"
       - name: pwd
         run: pwd
-      - name: ls
-        run: ls /home/runner/work/cpp-tools/cpp-tools
+      - name: cd
+        run: cd /home/runner/work/cpp-tools/cpp-tools/lev_distance
       - name: Build Run 2
         run: make run
         working-directory: lev_distance
