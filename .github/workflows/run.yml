@@ -13,7 +13,7 @@ jobs:
       - name: pwd
         run: pwd
       - name: ls
-        run: ls
+        run: ls /home/runner/work/cpp-tools/cpp-tools
       - name: Build Run 2
         run: make run
         working-directory: lev_distance
