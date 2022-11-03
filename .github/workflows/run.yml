@@ -12,6 +12,8 @@ jobs:
         run: echo "START !!!!"
       - name: pwd
         run: pwd
+      - name: ls
+        run: ls
       - name: Build Run 2
         run: make run
         working-directory: lev_distance
